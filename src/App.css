@@ -1,18 +1,24 @@
+/* General App Styles */
 .App {
   text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 
+/* Logo Styles */
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
+  margin: 20px;
 }
 
+/* Animation */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
+/* Header Styles */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,14 +26,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin);
   color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Link Styles */
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* Keyframes for Logo Spin Animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

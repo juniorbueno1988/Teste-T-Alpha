@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Teste Técnico - Aplicação Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é parte de um teste técnico que consiste no desenvolvimento de uma aplicação front-end. A aplicação deve ser construída utilizando um dos seguintes frameworks: ReactJS, React Native ou Angular. O sistema implementado deve incluir autenticação e um CRUD (Create, Read, Update, Delete) de produtos.
+Funcionalidades
 
-## Available Scripts
+    Autenticação: Implementação de login e controle de sessão de usuário.
+    CRUD de Produtos: Funcionalidades para criar, listar, atualizar e deletar produtos.
 
-In the project directory, you can run:
+Tecnologias Utilizadas
 
-### `npm start`
+    Frameworks: ReactJS, React Native ou Angular.
+    API de Back-End: A aplicação se integra com a API disponível em https://interview.t-alpha.com.br.
+    Documentação da API: A documentação completa da API pode ser acessada em https://interview.t-alpha.com.br/reference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Instruções de Configuração
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Clone este repositório para sua máquina local.
+    Navegue até o diretório do projeto.
+    Instale as dependências necessárias usando o gerenciador de pacotes de sua escolha (npm ou yarn).
 
-### `npm test`
+    bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+# ou
+yarn install
 
-### `npm run build`
+Configure as variáveis de ambiente necessárias, como as credenciais de autenticação e a URL da API, se aplicável.
+Execute o projeto no modo de desenvolvimento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm start
+    # ou
+    yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Acesse a aplicação em http://localhost:3000 no seu navegador (ou no endereço configurado no caso de React Native ou Angular).
 
-### `npm run eject`
+Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    /src: Contém os arquivos principais do código-fonte, incluindo os componentes, páginas e serviços.
+    /public: Contém os arquivos estáticos e o arquivo index.html.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para gerar a build de produção, execute:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
 
-## Learn More
+npm run build
+# ou
+yarn build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A pasta build (ou equivalente) conterá os arquivos prontos para deploy.
+Testes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para rodar os testes, utilize o comando:
 
-### Code Splitting
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm test
+# ou
+yarn test
 
-### Analyzing the Bundle Size
+Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Em caso de dúvidas ou para mais informações, entre em contato pelo e-mail juniobueno@gmail.com
